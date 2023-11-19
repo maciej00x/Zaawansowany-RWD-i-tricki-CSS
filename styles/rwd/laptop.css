@@ -1,0 +1,19 @@
+/* LAPTOP */
+@media screen and (min-width: 1024px) {
+  /* --- GLOBALS --- */
+
+  .container {
+    width: 1000px;
+  }
+
+  /* --- ARTICLES --- */
+
+  .article {
+    gap: 50px;
+  }
+
+  .article-image {
+    width: 200px;
+    height: 200px;
+  }
+}

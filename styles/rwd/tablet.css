@@ -1,0 +1,41 @@
+/* TABLET */
+@media screen and (min-width: 768px) {
+  /* --- GLOBALS --- */
+
+  /*.read-more {
+      color: red;
+    }*/
+
+  .container {
+    width: calc(100% - 32px);
+  }
+
+  .heading-2 {
+    font-size: 26px;
+    text-align: initial;
+  }
+
+  /* --- ARTICLES --- */
+
+  .article {
+    max-width: none;
+    flex-direction: row;
+  }
+
+  .article-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .article-content {
+    align-items: flex-start;
+  }
+}
+
+.article-teaser {
+  -webkit-line-clamp: 4; /* webkit box ustala np 5 linijek, nadrzędne dane do tego są ustalone w mobile.css */
+}
+
+.read-more {
+  align-self: flex-end;
+}

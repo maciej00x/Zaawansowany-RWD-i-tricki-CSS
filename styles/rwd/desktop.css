@@ -1,0 +1,8 @@
+/* DESKTOP */
+@media screen and (min-width: 1440px) {
+  /* --- GLOBALS --- */
+
+  .container {
+    width: 1320px;
+  }
+}
